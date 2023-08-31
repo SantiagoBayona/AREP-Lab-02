@@ -46,6 +46,7 @@ https://localhost:35000/imgg.png
 
 Al hacerlo vemos que el recurso solicitado carga en el navegador
 
+![src/main/resources/img/](readme/Prueba.png)
 
 
 ## Construido con
