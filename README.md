@@ -1,6 +1,6 @@
-# TALLER 1: APLICACIONES DISTRIBUIDAS (HTTP, SOCKETS, HTML, JS,MAVEN, GIT)
+# TALLER 2: DISEÑO Y ESTRUCTURACIÓN DE APLICACIONES DISTRIBUIDAS EN INTERNET
 
-Aplicación para consultar la información de películas de cine
+Servidor web que soporta múlltiples solicitudes seguidas (no concurrentes). Lee los archivos del disco local y retornar todos los archivos solicitados, incluyendo páginas html, archivos java script, css e imágenes.
 
 ### Prerrequisitos
 - Java
@@ -11,7 +11,7 @@ Aplicación para consultar la información de películas de cine
 1. Clonar el repositorio
 
 ```
-git clone https://github.com/SantiagoBayona/AREP-Lab-01
+git clone https://github.com/SantiagoBayona/AREP-Lab-02
 ```
 
 2. Dentro del directorio del proyecto lo construimos
@@ -36,11 +36,17 @@ https://localhost:35000
 
 ## Pruebas
 
-Para ejecutar las pruebas usamos el comando
+Para probar el servidor debemos solicitarle alguno de los recursos
+
+![src/main/resources/img/](readme/Carpeta.png)
 
 ```
-mvn test
+https://localhost:35000/imgg.png
 ```
+
+Al hacerlo vemos que el recurso solicitado carga en el navegador
+
+
 
 ## Construido con
 
